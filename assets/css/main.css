@@ -2150,6 +2150,14 @@ body.landing #page-wrapper {
     #header h1 a {
       font-size: 1.25em;
       color: #fff !important; }
+  #header > ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0; }
+    #header > ul > li {
+      display: inline-block; }
+      #header > ul > li > ul {
+        display: none !important; }
   #header nav {
     height: inherit;
     line-height: inherit;
